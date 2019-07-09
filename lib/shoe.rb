@@ -9,4 +9,7 @@ class Shoe
   attr_accessor :condition
   attr_reader :brand
 
+  def cobble
+    puts "Your shoe is as good as new!"
+  end
 end
